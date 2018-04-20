@@ -1,11 +1,10 @@
 class TodoController < ApplicationController
     def index
-  	end
+    end
   	
   	def show
-  	    @todo_description = "Learn Variables"
-@todo_pomodoro_estimate = 4
-
+  	  @todo_description = "Learn Variables"
+      @todo_pomodoro_estimate = 4
     end
     
 end
